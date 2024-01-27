@@ -6,6 +6,7 @@ import Carousel from './Carousel'
 export const metadata = {
   title: 'Fruit Shop',
   description: 'Hyperinflated fruit store - best prices 2024',
+  
 }
 
 import { Inter } from 'next/font/google'
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
